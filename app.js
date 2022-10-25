@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Auto reservation parkin
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.2
 // @description  Script for parkin reservation
 // @author       Paul
 // @match        https://park-in.kb.cz/
+// @updateURL    https://pavelhynek.github.io/park-in/app.js
+// @downloadURL  https://pavelhynek.github.io/park-in/app.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=kb.cz
 // @grant        GM_log
 // ==/UserScript==
