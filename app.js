@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto reservation parkin
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Script for parkin reservation
 // @author       Paul
 // @match        https://park-in.kb.cz/
