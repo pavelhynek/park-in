@@ -20,7 +20,7 @@ setTimeout(() => {
 
     cards.forEach(card => {
         const cardBody = card.querySelector('.card-body');
-        const statusString = cardBody.querySelector('small').innerText;
+        const statusString = cardBody.querySelector('.state').innerText;
         const cardDate = cardBody.querySelector('div.kb-primary-text-color').innerText;
 
         // Check if its occupied
@@ -44,6 +44,7 @@ setTimeout(() => {
                     GM_log("Adding: "+cardDate);
                     dates.push(cardDate);
                     localStorage.setItem('dates', JSON.stringify(dates));
+                    window.location.reload();
                 } else {
                     GM_log("Removing: "+cardDate);
                     const index = dates.findIndex((date) => date === cardDate);
